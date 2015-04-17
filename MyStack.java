@@ -1,11 +1,8 @@
 import java.util.*;
 
 /**MyStack繼承ArrayList，型態為Object*/
-public class MyStack extends ArrayList<Object>{
-	
-	//Main Method
-	public static void main(String[] args) {
-	
+class MyStack extends ArrayList<Object>{
+
 	//陣列是否為空值
 	public boolean isEmpty(){
 		return super.isEmpty();
