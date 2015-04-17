@@ -1,10 +1,10 @@
 import java.util.*;
 
 public class testMyStack{
-  //main method
+	//main method
 	public static void main(String[] args) {
 	
-	  //new an object in MyStack 
+		 //new an object in MyStack 
 		MyStack myStack = new MyStack();
 		
 		//create a Scanner
@@ -18,7 +18,7 @@ public class testMyStack{
 		
 		//if ArrayList is not empty, this loop will execute
 		while(!myStack.isEmpty()){
-		  //invoke pop method in MyStack and print these five Strings in reverse order
+		 	//invoke pop method in MyStack and print these five Strings in reverse order
 			System.out.print(myStack.pop() + " ");
 		}
 	}
